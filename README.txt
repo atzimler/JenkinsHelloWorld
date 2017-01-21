@@ -1,0 +1,1 @@
+This is an empty project to be built by Jenkins in the series of articles posted on http://highvaluecode.com.au/
