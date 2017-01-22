@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLibrary", "HelloLibrar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B2B0B12-B393-46B7-AAE0-CCBA7D68082A}"
 	ProjectSection(SolutionItems) = preProject
+		NAntHelloWorld.xml = NAntHelloWorld.xml
 		README.txt = README.txt
 	EndProjectSection
 EndProject

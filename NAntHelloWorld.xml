@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="NAntHelloWorld" default="sayhello" xmlns="http://nant.sf.net/release/0.92/nant.xsd">
+  <target name="sayhello">
+    <echo message="Hello World!"/>
+  </target>
+</project>
