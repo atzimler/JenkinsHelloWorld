@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project name="HelloLibrary" xmlns="http://nant.sf.net/release/0.92/nant.xsd">
+  <property name="msbuild" value="C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe"/>
+  <property name="nuget" value="C:\NuGet\nuget.exe"/>
+  
+  <target name="build">
+    <exec program="${msbuild}" basedir="HelloLibrary"/>
+  </target>
+</project>
