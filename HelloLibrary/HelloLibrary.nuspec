@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/atzimler/JenkinsHelloWorld</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/atzimler/JenkinsHelloWorld/master/LICENSE.txt</licenseUrl>
+    <description>Library for Saying Hello.</description>
+    <dependencies />
+    <releaseNotes>
+1.0.0:
+- Say hello to my new NuGet packaged library.
+    </releaseNotes>
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+</package>
