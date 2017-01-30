@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("HelloLibrary")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Hello Library for presenting how to create NuGet packages with Jenkins.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Company building NuGets, not the nugget kind of ones.")]
 [assembly: AssemblyProduct("HelloLibrary")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
