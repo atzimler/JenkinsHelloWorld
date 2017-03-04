@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project name="NAntHelloWorld" default="sayhello" xmlns="http://nant.sf.net/release/0.92/nant.xsd">
   <target name="tests">
-    <property name="nunit" value="C:\NUnit.org\nunit-console\nunit3-console.exe"/>
+    <property name="nunit" value="C:\NUnit.org\nunit3-console.exe"/>
 
     <property name="workspace" value="${environment::get-variable('WORKSPACE')}"/>
     <property name="testdir" value="${workspace}\NUnitHelloWorld\bin\Debug"/>
