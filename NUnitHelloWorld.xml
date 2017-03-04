@@ -11,7 +11,7 @@
           workingdir="${testdir}"
           verbose="true"
           failonerror="false">
-      <arg line="--result:TestResult.xml;format=nunit2 ${test}"/>
+      <arg line="--result:TestResult.xml;format=nunit2 ${tests}"/>
     </exec>
   </target>
 </project>
