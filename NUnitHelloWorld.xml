@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="NAntHelloWorld" default="sayhello" xmlns="http://nant.sf.net/release/0.92/nant.xsd">
+  <target name="tests">
+    <property name="nunit" value="C:\NUnit.org\nunit-console\nunit3-console.exe"/>
+
+    <property name="testdir" value="${WORKSPACE}\NUnitHelloWorld\bin\Debug"/>
+    <property name="tests" value="${testdir}\NUnitHelloWorld.dll"/>
+
+    <exec program="${nunit}"
+          workingdir="${testdir}"
+          verbose="true"
+          failonerror="false">
+      <arg line="--result:TestResult.xml;format=nunit2 ${test}"/>
+    </exec>
+  </target>
+</project>
