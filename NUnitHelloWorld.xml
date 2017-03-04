@@ -3,7 +3,8 @@
   <target name="tests">
     <property name="nunit" value="C:\NUnit.org\nunit-console\nunit3-console.exe"/>
 
-    <property name="testdir" value="${WORKSPACE}\NUnitHelloWorld\bin\Debug"/>
+    <property name="workspace" value="${environment::get-variable('WORKSPACE')}"/>
+    <property name="testdir" value="${workspace}\NUnitHelloWorld\bin\Debug"/>
     <property name="tests" value="${testdir}\NUnitHelloWorld.dll"/>
 
     <exec program="${nunit}"
